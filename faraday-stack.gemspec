@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.name    = 'faraday-stack'
   gem.version = '0.1.5'
 
-  gem.add_dependency 'faraday', ['>= 0.6', '< 0.8']
+  gem.add_dependency 'faraday', ['>= 0.6', '<= 0.8']
   # gem.add_development_dependency 'rspec', '~> 1.2.9'
 
   gem.summary = "Great Faraday stack for consuming all kinds of APIs"
